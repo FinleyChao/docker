@@ -16,7 +16,7 @@ public class DockerApplication {
 
     @RequestMapping("/")
     public String home(){
-        return "Hello Docker World!!!";
+        return "终于运行起来了，搞了好久了，jenkins + docker + git!!!";
     }
 
 }
