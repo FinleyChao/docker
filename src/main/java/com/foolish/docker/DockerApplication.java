@@ -16,7 +16,7 @@ public class DockerApplication {
 
     @RequestMapping("/")
     public String home(){
-        return "跳过单元测试，jenkins + docker + git!!!";
+        return "测试awk '{print $2}'，jenkins + docker + git!!!";
     }
 
 }
