@@ -16,7 +16,7 @@ public class DockerApplication {
 
     @RequestMapping("/")
     public String home(){
-        return "测试pom配置，jenkins + docker + git!!!";
+        return "测试pom配置，webhook，jenkins + docker + git!!!";
     }
 
 }
